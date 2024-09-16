@@ -9,7 +9,7 @@ export function UserInput() {
             <input 
                 type="text" 
                 name="textInput"
-                onChange={e => setText(e.target.value)}
+                onChange = {e => setText(e.target.value)}
             />
             <span> {text} </span>
         </>

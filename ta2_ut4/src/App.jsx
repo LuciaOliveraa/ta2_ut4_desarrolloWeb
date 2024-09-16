@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import './App.css'
+import './components/Card/card.module.css'
 
 import { Card } from "./components/Card";
 import { CardContent } from './components/CardContent';
 import { UserInput } from './components/UserInput';
+import { Counter } from './components/Counter';
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -41,8 +43,9 @@ function App() {
         />
       </Card>
 
-      <UserInput>
-      </UserInput>
+      <UserInput> </UserInput>
+
+      <Counter></Counter>
     </div>
   )
 }

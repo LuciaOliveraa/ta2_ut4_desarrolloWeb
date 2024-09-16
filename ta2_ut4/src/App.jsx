@@ -6,6 +6,7 @@ import { Card } from "./components/Card";
 import { CardContent } from './components/CardContent';
 import { UserInput } from './components/UserInput';
 import { Counter } from './components/Counter';
+import { TextDisAppear } from './components/TextDisAppear';
 
 function App() {
   //const [count, setCount] = useState(0)
@@ -46,6 +47,8 @@ function App() {
       <UserInput> </UserInput>
 
       <Counter></Counter>
+
+      <TextDisAppear></TextDisAppear>
     </div>
   )
 }
